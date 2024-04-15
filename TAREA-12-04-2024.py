@@ -1,5 +1,11 @@
-a = {}
-def add_dic(dic,key,thing):
-    dic[key]=thing
-add_dic(a,"no",1)
-print(a)
+def agregar_producto(lista,id,nombre,precio,cantidad):
+    diccionario={
+        'id':id,
+        'nombre':nombre,
+        'precio':precio,
+        'cantidad':cantidad
+    }
+    lista.append(diccionario)
+aa = []
+agregar_producto(aa,'00','Pimpoyo',100,99999999999)
+print(aa)
